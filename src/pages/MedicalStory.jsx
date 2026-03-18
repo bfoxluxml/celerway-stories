@@ -443,7 +443,7 @@ Celerway lets them phone home directly.
         {/* REAL-WORLD DEPLOYMENT VISUAL - Using your selected photo */}
         <section className="py-12 bg-white dark:bg-zinc-900 border-y border-zinc-100 dark:border-zinc-800">
           <div className="mx-auto max-w-6xl px-6">
-            <SectionLabel index={0}>Proven in Real Clinical Environments</SectionLabel>
+            <SectionLabel>Proven in Real Clinical Environments</SectionLabel>
 
             <div className="grid lg:grid-cols-2 gap-10 items-center">
               {/* Your selected image */}
