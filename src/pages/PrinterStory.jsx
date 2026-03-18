@@ -265,7 +265,7 @@ export default function PrinterFleetStory() {
                   A Celerway node with Palo Alto SASE and a network-segmented cellular connection — deployed to a printer in a hospital radiology department.
                 </p>
                 <p className="text-sm leading-7 text-sky-800">
-                  The hospital's network is marked "NO ACCESS — ISOLATED." The device never touches it. Telemetry flows to the OEM cloud through an encrypted tunnel. HIPAA-ready from day one. Same architecture works for any compliance-sensitive environment: government facilities, financial services, legal, education.
+                  The hospital's network is marked "NO ACCESS — ISOLATED." The device never touches it. Telemetry flows to the OEM cloud through an encrypted tunnel. PHI-secure and compliant with UK Department of Health data protection standards. Same architecture works for any compliance-sensitive environment: government facilities, financial services, legal, education.
                 </p>
               </div>
             </CardContent>
