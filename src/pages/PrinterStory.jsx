@@ -32,7 +32,7 @@ const connectBullets = [
   "Remote diagnostics and firmware management restored",
   "Bring your own SIM or use Celerway fixed-rate data",
   "Fleet management portal: real-time status across every site",
-  "36-month contract, hardware included, no CAPEX",
+  "Flexible contract terms — hardware included, no CAPEX required.",
 ];
 
 // ─────────────────────────────────────────────────────────────
