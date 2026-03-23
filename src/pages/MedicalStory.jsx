@@ -362,7 +362,7 @@ Celerway lets them phone home directly.
             <SectionLabel index={2}>Platform Architecture</SectionLabel>
             <h2 className="text-3xl font-bold tracking-tight">Built for medical reality.</h2>
             <p className="mt-3 max-w-lg text-base leading-7 text-zinc-500 dark:text-zinc-400">
-              One secure edge node. Private cellular. Protocol-aware AI. Zero trust by design.
+              One secure edge node. Private cellular. Zero trust by design.
             </p>
           </div>
 
