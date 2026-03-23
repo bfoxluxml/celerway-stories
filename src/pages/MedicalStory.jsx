@@ -11,8 +11,6 @@ import {
   Stethoscope,
   Server,
   Lock,
-  Globe,
-  Database,
   Radio,
 } from "lucide-react";
 import { Card, CardContent } from "../components/ui/card";
@@ -104,34 +102,16 @@ const platformPillars = [
     body: "Your device never touches the facility LAN. Private LTE/5G tunnel bypasses firewalls and eliminates IT dependency.",
   },
   {
-    Icon: Shield,
-    color: "from-emerald-500 to-teal-500",
-    title: "Protocol-Aware Security",
-    body: "Deep packet inspection understands DICOM, HL7, SNMP, and more. Policy engine enforces rules at the protocol level.",
-  },
-  {
     Icon: Zap,
     color: "from-amber-500 to-red-400",
     title: "Zero-Touch Deployment",
     body: "Plug in, power on, online in 60 seconds. No professional services. No site visits required.",
   },
   {
-    Icon: Database,
-    color: "from-violet-500 to-fuchsia-500",
-    title: "AI-Powered Insights",
-    body: "AI analyzes events in real time. Generates risk assessments, briefings, and recommended actions.",
-  },
-  {
     Icon: CheckCircle2,
     color: "from-cyan-500 to-emerald-500",
     title: "HIPAA-Ready by Design",
     body: "Encrypted tunnels, network-segmented architecture, full audit trails, and zero inbound ports ensure compliance from day one.",
-  },
-  {
-    Icon: Globe,
-    color: "from-red-500 to-rose-500",
-    title: "Palo Alto Integration",
-    body: "Prisma SASE included. Every security event feeds Cortex XSOAR. Zero-trust networking without complexity.",
   },
 ];
 
@@ -386,7 +366,7 @@ Celerway lets them phone home directly.
             </p>
           </div>
 
-          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-5 sm:grid-cols-3">
             {platformPillars.map((pillar, i) => {
               const { Icon } = pillar;
               return (
