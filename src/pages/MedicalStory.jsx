@@ -414,10 +414,6 @@ Celerway lets them phone home directly.
               </span>
             ))}
           </div>
-          <div className="mt-5 flex items-center gap-2 text-xs text-zinc-400">
-            <span className="h-2 w-2 rounded-full bg-emerald-500" />
-            LIVE = production-deployed with full fleet visibility
-          </div>
         </section>
 
         {/* REAL-WORLD DEPLOYMENT VISUAL - Using your selected photo */}
