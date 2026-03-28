@@ -11,6 +11,7 @@ import AxiomPolicies from "./pages/AxiomPolicies";
 import AxiomPortfolio from "./pages/AxiomPortfolio";
 import AxiomPortfolioBriefing from "./pages/AxiomPortfolioBriefing";
 import AxiomIntelligenceVisionForCEO from "./pages/AxiomOwnerRepStoryForCEO";
+import AxiomOwnerRepStoryForCEO_V2 from "./pages/AxiomOwnerRepStoryForCEO_detail";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -26,6 +27,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/axiom-portfolio" element={<AxiomPortfolio />} />
         <Route path="/axiom-briefing" element={<AxiomPortfolioBriefing />} />
         <Route path="/axiom-owner-rep" element={<AxiomIntelligenceVisionForCEO />} />
+        <Route path="/axiom-owner-rep-detail" element={<AxiomOwnerRepStoryForCEO_V2 />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
