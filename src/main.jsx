@@ -10,6 +10,7 @@ import AxiomNarrativeMicrosite from "./pages/AxiomNarrativeMicrosite";
 import AxiomPolicies from "./pages/AxiomPolicies";
 import AxiomPortfolio from "./pages/AxiomPortfolio";
 import AxiomPortfolioBriefing from "./pages/AxiomPortfolioBriefing";
+import AxiomOwnerRepStoryForCEO from "./pages/AxiomOwnerRepStoryForCEO";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -24,6 +25,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/axiom-policies" element={<AxiomPolicies />} />
         <Route path="/axiom-portfolio" element={<AxiomPortfolio />} />
         <Route path="/axiom-briefing" element={<AxiomPortfolioBriefing />} />
+        <Route path="/axiom-owner-rep" element={<AxiomOwnerRepStoryForCEO />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
