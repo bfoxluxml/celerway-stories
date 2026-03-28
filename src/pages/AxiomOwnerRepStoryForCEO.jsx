@@ -20,38 +20,36 @@ import {
   Sparkles,
   Users,
   Wrench,
-  Briefcase,
   Zap,
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card";
 import { Badge } from "../components/ui/badge";
-import { Button } from "../components/ui/button";
 
 const acts = [
   {
     id: "predev",
     kicker: "Act I",
-    title: "The Pre-Development Grind",
-    subtitle: "Where most AI factories are won or lost — and where CEOs lose the most sleep.",
+    title: "Pre-Development",
+    subtitle: "The moment every gigawatt AI factory is quietly won or lost",
     icon: Eye,
     color: "from-sky-500 to-cyan-500",
     intro:
-      "You’re staring at 6–8 sites. Utility queues are opaque. Pro formas hide $20M+ surprises. Every owner archetype (developer, PE fund, utility pivot) is time-compressed and information-starved. Traditional owner’s reps drown in 20 meetings a day. Axiom starts here — by turning public packet-gold data + your live signals into an instant risk oracle.",
+      "You sit down with a shortlist of sites and a pro forma that feels optimistic. Utility queues, soil conditions, water rights, fiber latency, labor pools — every variable carries hidden risk. In the old world you rely on spreadsheets and gut feel. What lands on your desk with Axiom is something different: an instant, policy-grounded risk oracle that already knows the exact deviation patterns that derailed three identical projects in this ISO. You see the invisible constraints before the first meeting.",
     items: [
       {
-        title: "Site Evaluation & Selection",
+        title: "Instant Site Intelligence",
         detail:
-          "LBNL queue + EIA + USGS flood + BLS labor data ingested automatically. Vision Agent overlays satellite imagery. Policy 01–04 flags the exact deviation pattern that killed 3 prior projects in this ISO.",
+          "Public packet-gold datasets (LBNL queues, EIA forecasts, USGS flood layers) are automatically correlated with your Vision Agent overlays. Policy Domains 01–04 surface the precise risks that matter to your specific load and geography.",
       },
       {
-        title: "Pro Forma Challenge",
+        title: "Pro Forma That Remembers",
         detail:
-          "Independent cost & schedule baseline generated in <60 seconds. The system already knows which long-lead items will slip 14 months and why.",
+          "An independent baseline appears in seconds — not a static spreadsheet, but a living forecast that already incorporates the long-lead delays and commissioning realities from every comparable campus built before yours.",
       },
       {
-        title: "Team & Permitting Strategy",
+        title: "Permitting & Team Strategy",
         detail:
-          "Contracts, AHJ timelines, and contingency plans assembled from corpus memory. No more guessing which jurisdiction runs 9 weeks late.",
+          "You receive a clear roadmap of AHJ timelines and team-assembly recommendations drawn from institutional memory, not guesswork. The unknowns become known before you commit capital.",
       },
     ],
   },
@@ -59,53 +57,53 @@ const acts = [
     id: "design",
     kicker: "Act II",
     title: "Design & Procurement",
-    subtitle: "Value engineering without false economies. Long-lead items locked before the shovel hits dirt.",
+    subtitle: "Where assumptions meet reality — and where the best operators stay ahead",
     icon: Factory,
     color: "from-emerald-500 to-teal-500",
     intro:
-      "Design documents pour in. MEP coordination is chaos. Transformers have 52–80 week leads. The CEO is reacting, not leading. Axiom inverts this: the governed reasoning engine reviews every drawing against 16 policy domains and your live corpus, surfacing the exact substitutions that saved $18M on the last three identical campuses.",
+      "Design documents arrive in waves. MEP coordination is complex. Long-lead items have lead times measured in years. In the old world you chase answers across email threads and vendor calls. With Axiom the governed reasoning engine reviews every drawing against your 16 policy domains and the growing corpus. What you now have at your fingertips is the collective experience of every similar AI factory: the exact value-engineering moves that preserved technical integrity while unlocking millions, and the precise procurement triggers that avoid 14-month slips.",
     items: [
       {
-        title: "Design Management + VE",
+        title: "Live Design Memory",
         detail:
-          "Every drawing reviewed in real time. False economies are flagged; true savings are recommended with traceable policy evidence.",
+          "Every submittal and drawing is cross-checked against policy and prior outcomes. You see the patterns — false economies versus genuine optimizations — before they become field problems.",
       },
       {
         title: "Long-Lead Oracle",
         detail:
-          "Procurement schedule auto-generated and integrated. Public benchmarks + your corpus tell you exactly when to authorize early buys.",
+          "A dynamic procurement schedule integrates public benchmarks with your own project signals. You know exactly when to authorize early purchases and why.",
       },
       {
-        title: "Coordination & Risk Log",
+        title: "Coordination Clarity",
         detail:
-          "Structural/MEP/IT clashes resolved in the model, not the field. Open issues log is policy-grounded and visible to every stakeholder.",
+          "Structural, MEP, and IT interdependencies are surfaced and resolved in the model. The open-issues log is no longer a list of questions — it is a traceable map of decisions already informed by institutional memory.",
       },
     ],
   },
   {
     id: "construction",
     kicker: "Act III",
-    title: "Construction Execution",
-    subtitle: "You finally get an independent view of the schedule and cost — not the GC’s story.",
+    title: "Construction",
+    subtitle: "The shift from vendor-managed to owner-led",
     icon: Hammer,
     color: "from-amber-500 to-orange-500",
     intro:
-      "GCs mask problems. Change orders are opportunistic. 2 a.m. cooling alarms arrive on Monday morning. The CEO is vendor-managed instead of owner-led. Axiom changes that forever: AISentry Packet + DC Agents feed real-time OT signals directly into the platform. The independent schedule and cost oracle updates every morning before you open your eyes.",
+      "Schedules slip silently. Change orders accumulate. 2 a.m. alarms reach you on Monday morning. In the old world the GC's story is the only story. Axiom changes the information asymmetry. AISentry edge agents (Packet, DC, Vision) feed real-time OT signals directly into the platform. What appears on your screen every morning is an independent view — not the contractor's narrative — but the actual state of the project, cross-referenced against the entire corpus of similar builds. You see the critical path before anyone else does.",
     items: [
       {
-        title: "Independent Schedule & Cost Oracle",
+        title: "Independent Schedule & Cost View",
         detail:
-          "Critical-path deviations flagged the moment they appear. Delay warnings come with exact remediation steps and historical cost impact.",
+          "A living forecast that updates continuously. Delay signals arrive with historical context and remediation paths drawn from real outcomes, not theory.",
       },
       {
-        title: "Quality & Subcontractor Health",
+        title: "Site Health at a Glance",
         detail:
-          "Vision Agent monitors site progress. Packet Agent scores subcontractor OT health 0–100. No more surprises when the electrical sub falls behind.",
+          "Vision Agent progress overlays, Packet Agent OT health scores, and DC Agent correlation give you a single source of truth about subcontractor performance and system readiness.",
       },
       {
-        title: "Weekly CEO Briefing",
+        title: "Morning Intelligence Briefing",
         detail:
-          "One 90-second read. Honest. Actionable. Policy-traceable. Lenders and equity partners get branded draw packages in the same click.",
+          "One concise, policy-grounded summary that tells you exactly where the project stands, what requires your attention, and what the team is already handling. No more 20 meetings to piece together the picture.",
       },
     ],
   },
@@ -113,139 +111,189 @@ const acts = [
     id: "commissioning",
     kicker: "Act IV",
     title: "Commissioning & Acceptance",
-    subtitle: "The phase that kills relationships and budgets — now de-risked before the hyperscaler team arrives.",
+    subtitle: "The phase that defines credibility with hyperscalers",
     icon: Zap,
     color: "from-fuchsia-500 to-violet-500",
     intro:
-      "Commissioning is not a formality — it is the $10–30M moment. Cx plans have gaps. Failure modes are missed. Tenant acceptance testing finds problems that should have been caught weeks earlier. Axiom’s DC Agent (CORR-001/002/003) + Packet Agent watch every test in real time. The platform already knows which sequence failed on the last three identical 100 MW builds and exactly how to fix it.",
+      "Commissioning is no longer a final checklist — it is the moment of truth for a billion-dollar asset. Cx plans have hidden gaps. Failure modes surface at the worst possible time. In the old world you hope the team catches everything. With Axiom the DC Agent correlation engine and Packet Agent protocol monitoring watch every test in real time. What you now hold is the institutional memory of every prior commissioning sequence: the exact failure modes that appeared on the last three identical builds and the precise remediation that worked. The hyperscaler acceptance team arrives to a facility that already knows itself.",
     items: [
       {
-        title: "Cx Plan Review & Gap Analysis",
+        title: "Policy-Grounded Cx Oversight",
         detail:
-          "Policy 13–15 instantly surfaces missing failure modes. Test sequence optimized against the master schedule.",
+          "Every test plan is reviewed against Domains 13–15. Missing scenarios are surfaced before testing begins.",
       },
       {
-        title: "Live Functional Performance Testing",
+        title: "Live Failure Memory",
         detail:
-          "Every failover, UPS transfer, and cooling test monitored at protocol level. Root-cause analysis is automatic and traceable.",
+          "Root-cause analysis is automatic and traceable. You see the pattern match instantly — and the solution that worked before.",
       },
       {
-        title: "Tenant Acceptance Coordination",
+        title: "Acceptance Without Surprise",
         detail:
-          "Hyperscaler team arrives to zero surprises. Sign-off package generated in real time. Commissioning corpus updated for the next project.",
+          "The platform prepares the exact evidence package the tenant expects. Commissioning becomes a confirmation, not a discovery.",
       },
     ],
   },
   {
     id: "axiom",
     kicker: "Act V",
-    title: "Axiom Intelligence Platform",
-    subtitle: "The Owner’s Rep grind disappears. The CEO gets the memory of an entire asset class.",
+    title: "Axiom Intelligence Layer",
+    subtitle: "The operating memory of an entire asset class — now at your command",
     icon: Brain,
     color: "from-indigo-500 to-blue-500",
     intro:
-      "This is the destination. No more 20 meetings a day. No more vendor-managed chaos. A single subscription gives the Data Center CEO a governed intelligence layer that sucks in every signal — AISentry edge agents, public packet-gold datasets, and anonymized peer projects — and turns it into a 90-second morning briefing that gets smarter every single day. The corpus is the moat. Every new campus makes every other campus safer, faster, and cheaper.",
+      "This is the destination. The Owner's Rep playbook is replaced by something far more powerful: a governed intelligence platform that continuously ingests every signal — from your AISentry edge agents, from public datasets, and from anonymized peer projects — and returns it as actionable institutional memory. What lands on your desk every single morning is the compressed learning curve of the entire AI infrastructure era. You no longer manage in isolation. You operate with the collective experience of every gigawatt-scale factory built before yours.",
     items: [
       {
-        title: "Daily CEO Morning Briefing",
+        title: "Daily CEO Briefing",
         detail:
-          "Auto-generated. Policy-grounded. Honest about risks. Only the 3 things that need your judgment are escalated.",
+          "A single, honest, policy-traceable summary that surfaces only the signals that matter. Everything else is already being handled — with full visibility into why.",
       },
       {
-        title: "Corpus Flywheel",
+        title: "Compounding Corpus",
         detail:
-          "Every decision, delay, substitution, and commissioning outcome compounds. Your second 200 MW campus learns from 19 others before the first shovel moves.",
+          "Every decision, delay, substitution, and outcome you observe becomes part of a living memory layer. Your next campus is smarter on day one than your first campus was on day 365.",
       },
       {
-        title: "Stakeholder Spokes (zero extra work)",
+        title: "Strategic Optionality",
         detail:
-          "Lenders get draw packages, insurers get risk scores, hyperscalers get readiness benchmarks — all from the same governed memory.",
-      },
-      {
-        title: "80%+ Net Margins Reality",
-        detail:
-          "Self-serve onboarding (<90s zero-touch), automatic signal ingestion, AI-first support. The platform scales like Zscaler while you sleep.",
+          "Lenders, insurers, hyperscalers, and your own operations team all draw from the same governed source — each seeing the view they need, while you retain the single source of truth.",
       },
     ],
   },
 ];
 
-const progression = ["Pre-Dev", "Design", "Construction", "Commissioning", "Axiom"];
+const progression = ["Pre-Development", "Design", "Construction", "Commissioning", "Intelligence Layer"];
 
-export default function AxiomOwnerRepStoryForCEO() {
+function ArchitectureMap() {
+  const architectureNodes = [
+    { id: "edge", label: "AISentry Edge Agents", x: 12, y: 18, icon: Radar },
+    { id: "gold", label: "Public Packet-Gold Data", x: 12, y: 48, icon: Database },
+    { id: "policy", label: "16 Policy Domains", x: 32, y: 33, icon: ScrollText },
+    { id: "corpus", label: "Compounding Corpus", x: 52, y: 18, icon: Layers3 },
+    { id: "reasoning", label: "Governed Reasoning Engine", x: 52, y: 48, icon: Brain },
+    { id: "briefing", label: "CEO Morning Intelligence", x: 78, y: 33, icon: Activity },
+  ];
+
+  const connections = [
+    ["edge", "policy", "solid"],
+    ["gold", "policy", "solid"],
+    ["policy", "corpus", "solid"],
+    ["corpus", "reasoning", "solid"],
+    ["reasoning", "briefing", "solid"],
+    ["edge", "corpus", "dashed"],
+    ["gold", "corpus", "dashed"],
+  ];
+
+  const nodeLookup = useMemo(() => Object.fromEntries(architectureNodes.map((n) => [n.id, n])), []);
+
+  return (
+    <div className="relative h-[520px] w-full overflow-hidden rounded-3xl border bg-white/80 backdrop-blur dark:bg-zinc-950/70">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(99,102,241,0.1),transparent_50%),radial-gradient(circle_at_70%_80%,rgba(14,165,233,0.1),transparent_50%)]" />
+      <svg className="absolute inset-0 h-full w-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+        {connections.map(([from, to, style], i) => {
+          const a = nodeLookup[from];
+          const b = nodeLookup[to];
+          return (
+            <motion.line
+              key={i}
+              x1={a.x}
+              y1={a.y}
+              x2={b.x}
+              y2={b.y}
+              stroke="#64748b"
+              strokeWidth="0.8"
+              strokeDasharray={style === "dashed" ? "3 2" : "0"}
+              initial={{ pathLength: 0 }}
+              whileInView={{ pathLength: 1 }}
+              transition={{ duration: 1.2, delay: i * 0.08 }}
+              viewport={{ once: true }}
+            />
+          );
+        })}
+      </svg>
+
+      {architectureNodes.map((node, i) => {
+        const Icon = node.icon;
+        return (
+          <motion.div
+            key={node.id}
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.4, delay: i * 0.1 }}
+            viewport={{ once: true }}
+            className="absolute -translate-x-1/2 -translate-y-1/2"
+            style={{ left: `${node.x}%`, top: `${node.y}%` }}
+          >
+            <div className="w-48 rounded-3xl border bg-white p-4 shadow-md dark:bg-zinc-900">
+              <div className="flex items-center gap-3">
+                <div className="rounded-2xl bg-zinc-100 p-2 dark:bg-zinc-800">
+                  <Icon className="h-5 w-5" />
+                </div>
+                <div className="text-sm font-semibold leading-tight">{node.label}</div>
+              </div>
+            </div>
+          </motion.div>
+        );
+      })}
+    </div>
+  );
+}
+
+export default function AxiomIntelligenceVisionForCEO() {
   const [activeAct, setActiveAct] = useState(acts[0].id);
-
   const selectedAct = acts.find((act) => act.id === activeAct) || acts[0];
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-zinc-50 via-white to-zinc-100 text-zinc-900 dark:from-zinc-950 dark:via-zinc-950 dark:to-zinc-900 dark:text-zinc-100">
-      {/* HERO */}
+      {/* HERO — Visionary framing */}
       <section className="mx-auto max-w-7xl px-6 py-16 lg:px-10 lg:py-24">
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.45 }}
-          className="grid gap-8 lg:grid-cols-[1.2fr_0.8fr] lg:items-end"
+          className="grid gap-8 lg:grid-cols-[1.25fr_0.75fr] lg:items-end"
         >
           <div>
-            <Badge className="rounded-full px-4 py-1 text-sm bg-amber-100 text-amber-700 dark:bg-amber-900 dark:text-amber-300">
-              From Owner’s Rep grind to CEO intelligence layer
-            </Badge>
-            <h1 className="mt-5 max-w-5xl text-4xl font-semibold tracking-tighter sm:text-5xl lg:text-6xl">
-              Your data center is being built at a speed the old playbook can’t handle.<br />
-              <span className="bg-gradient-to-r from-indigo-500 to-cyan-400 bg-clip-text text-transparent">Axiom gives you the new one.</span>
+            <Badge className="rounded-full px-5 py-1 text-sm">The new operating reality for AI infrastructure</Badge>
+            <h1 className="mt-6 max-w-4xl text-5xl font-semibold tracking-tighter leading-none sm:text-6xl lg:text-7xl">
+              Every gigawatt AI factory you build is a new category of infrastructure.<br />
+              <span className="bg-gradient-to-r from-indigo-600 via-cyan-500 to-teal-400 bg-clip-text text-transparent">
+                Axiom is the memory it has never had — until now.
+              </span>
             </h1>
-            <p className="mt-6 max-w-3xl text-xl leading-tight text-zinc-600 dark:text-zinc-300">
-              No more 20 meetings a day. No more vendor-managed chaos. One governed intelligence platform that remembers every project on earth — and turns that memory into your daily decision advantage.
+            <p className="mt-8 max-w-2xl text-xl text-zinc-600 dark:text-zinc-300">
+              What you will have at your fingertips each morning is the compressed experience of every project like yours.
+              The old playbook required 20 meetings to assemble a picture. The new layer delivers one clear, policy-grounded briefing that grows smarter with every campus you touch.
             </p>
-
-            <div className="mt-10 flex flex-wrap items-center gap-3">
-              {progression.map((step, i) => (
-                <div key={step} className="flex items-center gap-3">
-                  <div className="rounded-2xl border bg-white px-5 py-2.5 text-sm font-semibold shadow-sm dark:bg-zinc-900">
-                    {step}
-                  </div>
-                  {i < progression.length - 1 && <ArrowRight className="h-4 w-4 text-zinc-400" />}
-                </div>
-              ))}
-            </div>
           </div>
 
-          <Card className="rounded-3xl border-0 bg-zinc-900 text-white shadow-2xl">
+          <Card className="rounded-3xl border-0 bg-white shadow-2xl dark:bg-zinc-900">
             <CardContent className="p-8">
-              <div className="flex items-center gap-3">
-                <Brain className="h-9 w-9 text-cyan-400" />
-                <div>
-                  <div className="text-xs font-medium uppercase tracking-widest text-cyan-300">CEO Reality Check</div>
-                  <CardTitle className="text-2xl">30-day delay = $10–30M</CardTitle>
-                </div>
-              </div>
-              <p className="mt-6 text-lg leading-tight">
-                Every gigawatt AI factory you build is a new category of infrastructure. The market has no institutional memory yet.<br />
-                <span className="font-semibold">Axiom becomes that memory — for you, today.</span>
+              <div className="text-sm uppercase tracking-widest text-teal-500">What changes</div>
+              <h3 className="mt-3 text-3xl font-semibold tracking-tight">
+                From information overload to institutional memory
+              </h3>
+              <p className="mt-6 text-zinc-600 dark:text-zinc-400">
+                The creative tension is real: the speed of AI infrastructure has outrun every traditional method of oversight.
+                Axiom closes that gap — not by adding more tools, but by giving you the one layer that remembers everything the industry is still learning.
               </p>
-              <Button size="lg" className="mt-8 w-full rounded-2xl text-base font-semibold">
-                Get your first morning briefing demo
-              </Button>
             </CardContent>
           </Card>
         </motion.div>
       </section>
 
-      {/* INTERACTIVE STORY VIEW */}
+      {/* FIVE-ACT STORY */}
       <section className="mx-auto max-w-7xl px-6 py-12 lg:px-10">
-        <div className="mb-8 flex items-end justify-between">
-          <div>
-            <p className="text-sm font-medium uppercase tracking-[0.2em] text-zinc-500">The Five-Act Transformation</p>
-            <h2 className="mt-2 text-4xl font-semibold tracking-tight">From daily grind to daily intelligence</h2>
-          </div>
-          <Button variant="outline" className="rounded-2xl" onClick={() => window.location.reload()}>
-            Restart story
-          </Button>
+        <div className="mb-8">
+          <p className="text-sm font-medium uppercase tracking-[0.2em] text-zinc-500">Five acts of transformation</p>
+          <h2 className="mt-2 text-4xl font-semibold tracking-tighter">
+            From the daily grind you know to the intelligence layer you will lead with
+          </h2>
         </div>
 
-        <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
-          {/* ACT SELECTOR */}
+        <div className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
+          {/* Act selector */}
           <div className="space-y-4">
             {acts.map((act) => {
               const Icon = act.icon;
@@ -254,29 +302,20 @@ export default function AxiomOwnerRepStoryForCEO() {
                 <button
                   key={act.id}
                   onClick={() => setActiveAct(act.id)}
-                  className={`group w-full rounded-3xl border p-6 text-left transition-all duration-200 ${
+                  className={`group w-full rounded-3xl border p-6 text-left transition-all ${
                     active
-                      ? "border-zinc-900 bg-zinc-900 text-white shadow-2xl dark:border-white dark:bg-white dark:text-zinc-900"
-                      : "bg-white/70 hover:border-zinc-300 hover:bg-white dark:bg-zinc-900/70 dark:hover:border-zinc-700"
+                      ? "border-zinc-900 bg-zinc-900 text-white dark:border-white dark:bg-white dark:text-zinc-900"
+                      : "hover:border-zinc-300 bg-white/70 dark:bg-zinc-900/70"
                   }`}
                 >
                   <div className="flex items-start gap-5">
-                    <div
-                      className={`rounded-2xl bg-gradient-to-br ${act.color} p-3.5 text-white shadow-inner transition-transform group-hover:scale-110`}
-                    >
+                    <div className={`rounded-2xl bg-gradient-to-br ${act.color} p-4 text-white`}>
                       <Icon className="h-6 w-6" />
                     </div>
                     <div className="flex-1">
-                      <div className="flex items-baseline justify-between">
-                        <div>
-                          <div className="text-xs uppercase tracking-[0.2em] opacity-70">{act.kicker}</div>
-                          <div className="mt-1 text-2xl font-semibold tracking-tight">{act.title}</div>
-                        </div>
-                        <ChevronRight
-                          className={`h-6 w-6 transition-transform ${active ? "translate-x-1" : "group-hover:translate-x-0.5"}`}
-                        />
-                      </div>
-                      <p className={`mt-3 text-base leading-6 ${active ? "text-zinc-200" : "text-zinc-600 dark:text-zinc-400"}`}>
+                      <div className="text-xs uppercase tracking-widest opacity-70">{act.kicker}</div>
+                      <div className="mt-1 text-2xl font-semibold tracking-tight">{act.title}</div>
+                      <p className={`mt-3 text-base ${active ? "text-zinc-200" : "text-zinc-600 dark:text-zinc-400"}`}>
                         {act.subtitle}
                       </p>
                     </div>
@@ -286,23 +325,23 @@ export default function AxiomOwnerRepStoryForCEO() {
             })}
           </div>
 
-          {/* SELECTED ACT DETAIL */}
+          {/* Selected act detail */}
           <AnimatePresence mode="wait">
             <motion.div
               key={selectedAct.id}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 0.3 }}
+              transition={{ duration: 0.35 }}
             >
               <Card className="h-full rounded-3xl border-0 bg-gradient-to-br from-white to-zinc-100 shadow-2xl dark:from-zinc-900 dark:to-zinc-950">
                 <CardContent className="p-10">
                   <div className="flex items-center gap-5">
-                    <div className={`rounded-3xl bg-gradient-to-br ${selectedAct.color} p-5 text-white shadow-xl`}>
+                    <div className={`rounded-3xl bg-gradient-to-br ${selectedAct.color} p-5 text-white`}>
                       <selectedAct.icon className="h-10 w-10" />
                     </div>
                     <div>
-                      <div className="text-xs font-medium uppercase tracking-widest text-zinc-400">{selectedAct.kicker}</div>
+                      <div className="text-xs uppercase tracking-widest text-zinc-400">{selectedAct.kicker}</div>
                       <h3 className="text-4xl font-semibold tracking-tighter">{selectedAct.title}</h3>
                     </div>
                   </div>
@@ -317,34 +356,15 @@ export default function AxiomOwnerRepStoryForCEO() {
                         key={item.title}
                         initial={{ opacity: 0, scale: 0.95 }}
                         animate={{ opacity: 1, scale: 1 }}
-                        transition={{ delay: i * 0.1 }}
+                        transition={{ delay: i * 0.12 }}
                         className="rounded-3xl border bg-white/80 p-6 shadow-sm dark:bg-zinc-900/70"
                       >
-                        <div className="flex gap-4">
-                          <Sparkles className="mt-1 h-5 w-5 shrink-0 text-amber-400" />
-                          <div>
-                            <div className="font-semibold text-base">{item.title}</div>
-                            <p className="mt-3 text-sm leading-6 text-zinc-600 dark:text-zinc-300">{item.detail}</p>
-                          </div>
-                        </div>
+                        <Sparkles className="h-5 w-5 text-teal-400" />
+                        <div className="mt-4 font-semibold">{item.title}</div>
+                        <p className="mt-3 text-sm leading-6 text-zinc-600 dark:text-zinc-300">{item.detail}</p>
                       </motion.div>
                     ))}
                   </div>
-
-                  {/* CTA inside every act */}
-                  {selectedAct.id === "axiom" && (
-                    <div className="mt-12 rounded-3xl bg-gradient-to-r from-indigo-500 to-cyan-400 p-8 text-white">
-                      <div className="flex items-center justify-between">
-                        <div>
-                          <div className="text-sm font-medium">Ready for your first briefing?</div>
-                          <div className="text-2xl font-semibold">Zero meetings. Real-time memory. Immediate ROI.</div>
-                        </div>
-                        <Button size="lg" variant="secondary" className="rounded-2xl bg-white text-zinc-900 hover:bg-amber-100">
-                          Schedule your live demo now
-                        </Button>
-                      </div>
-                    </div>
-                  )}
                 </CardContent>
               </Card>
             </motion.div>
@@ -352,24 +372,33 @@ export default function AxiomOwnerRepStoryForCEO() {
         </div>
       </section>
 
-      {/* FINAL CLOSING FRAME */}
-      <section className="mx-auto max-w-7xl px-6 pb-20 pt-8 lg:px-10">
+      {/* ARCHITECTURE DIAGRAM — the visual strategy artifact */}
+      <section className="mx-auto max-w-7xl px-6 py-12 lg:px-10">
+        <div className="mb-8">
+          <p className="text-sm font-medium uppercase tracking-[0.2em] text-zinc-500">What you will actually see every day</p>
+          <h2 className="mt-2 text-4xl font-semibold tracking-tighter">The Axiom Intelligence Layer</h2>
+          <p className="mt-3 max-w-2xl text-lg text-zinc-600 dark:text-zinc-300">
+            Signals flow in continuously. Memory compounds. A single, governed briefing lands on your screen — giving you and your team the institutional memory the entire industry is still building.
+          </p>
+        </div>
+        <ArchitectureMap />
+      </section>
+
+      {/* CLOSING VISION — thought-leadership frame */}
+      <section className="mx-auto max-w-7xl px-6 pb-24 pt-8 lg:px-10">
         <Card className="rounded-3xl border-0 bg-zinc-900 text-white shadow-2xl">
           <CardContent className="p-12 text-center">
-            <div className="mx-auto max-w-2xl">
-              <Brain className="mx-auto h-16 w-16 text-cyan-400" />
-              <h2 className="mt-6 text-4xl font-semibold tracking-tight">
-                The Owner’s Rep playbook just became obsolete.
-              </h2>
-              <p className="mt-4 text-xl text-zinc-300">
-                Axiom Intelligence Platform is the governed memory layer every Data Center CEO needs right now.<br />
-                Signals in. Intelligence out. Every project smarter than the last.
-              </p>
-              <Button size="xl" className="mt-10 rounded-3xl px-10 text-lg font-semibold shadow-inner">
-                Claim your first month free — see the briefing that changes everything
-              </Button>
-              <p className="mt-6 text-xs text-zinc-400">Self-serve onboarding in &lt;90 seconds • 80%+ net margins • Corpus compounds daily</p>
-            </div>
+            <Brain className="mx-auto h-14 w-14 text-cyan-400" />
+            <h2 className="mt-6 text-4xl font-semibold tracking-tighter">
+              This is no longer a technology conversation.<br />
+              It is a leadership conversation.
+            </h2>
+            <p className="mx-auto mt-8 max-w-xl text-xl text-zinc-300">
+              The speed of AI infrastructure has created a new category of asset. The operators who thrive will be the ones who treat memory as infrastructure — not as an afterthought.
+            </p>
+            <p className="mt-10 text-sm uppercase tracking-widest text-zinc-400">
+              Share this with your team. Let it become the story of how your operation moved from reacting to leading.
+            </p>
           </CardContent>
         </Card>
       </section>
